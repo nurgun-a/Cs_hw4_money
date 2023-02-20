@@ -60,16 +60,6 @@ namespace Cs_hw4_money
                             Write("Введите рубли: "); mani2.ruble = int.Parse(ReadLine());
                             Write("Введите копейки: "); mani2.Kropeck = int.Parse(ReadLine());
                             WriteLine($"------------------------------------------------------");
-                            
-                            //WriteLine($"1-ый объект: {mani1}");
-                            //WriteLine($"2-ый объект: {mani2} ");
-
-                            //Bitcoin b1 = new Bitcoin ();
-                            //b1 = (Bitcoin)mani2;
-                            //WriteLine($"присвоение Bitcoin: {b1}");
-                            //mani1 = (Money)b1;
-                            //WriteLine($"присвоение Money: {mani1}");
-
                         }
                         break;                       
                     case "2":
